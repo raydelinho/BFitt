@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BeFit</string>
+    <string name="hello_world">Log in</string>
+    <string name="password">wachtwoor</string>
+    <string name="username">gebruiksnaam</string>
+    <string name="Register">register</string>
+
+
+</resources>
