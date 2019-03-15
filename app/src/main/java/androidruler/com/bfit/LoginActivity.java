@@ -11,8 +11,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import org.w3c.dom.Text;
-
 public class LoginActivity extends AppCompatActivity {
 
     Button loginButton, registerButton;
@@ -108,7 +106,7 @@ public class LoginActivity extends AppCompatActivity {
             Toast.makeText(LoginActivity.this,"Login Successfully",Toast.LENGTH_LONG).show();
 
             //proceed to dashb na succesvol inloggen
-            Intent intent = new Intent(LoginActivity.this, Dashboard.class);
+            Intent intent = new Intent(LoginActivity.this, DashboardActivity.class);
             //intent.putExtra(usernameHolder,username);
             startActivity(intent);
         }

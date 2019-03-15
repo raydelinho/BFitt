@@ -60,16 +60,11 @@ public class RegisterActivity extends AppCompatActivity {
                 // Empty EditText After done inserting process.
                 EmptyEditTextAfterDataInsert();
 
-
             }
         });
 
 
-
-
-
-
-    }
+        }
     //maak de edittext leeg na je hebt geregistreerd
     private void EmptyEditTextAfterDataInsert() {
         //maak edittext username leeg
@@ -133,7 +128,7 @@ public class RegisterActivity extends AppCompatActivity {
         //hier pak ik de ingevoerde text en convert het tot string en sla het op voor die string variable
         usernameHolder=username.getText().toString();
         passwordHolder=password.getText().toString();
-        
+
         if (TextUtils.isEmpty(usernameHolder)||TextUtils.isEmpty(passwordHolder)){
             EditTextEmptyHolder=false;
         }
