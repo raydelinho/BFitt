@@ -8,39 +8,38 @@
 
     <Button
         android:id="@+id/LoginButton"
-        android:layout_width="111dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_width="229dp"
+        android:layout_height="73dp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="204dp"
+        android:layout_marginBottom="163dp"
         android:text="strenght" />
 
     <Button
 
-        android:layout_width="111dp"
+        android:layout_width="236dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:layout_marginEnd="116dp"
-        android:layout_marginTop="126dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="124dp"
         android:text="cardio" />
 
     <Button
 
-        android:layout_width="111dp"
+        android:layout_width="235dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="66dp"
         android:text="progress" />
 
     <Button
         android:id="@+id/weatherButton"
-        android:layout_width="wrap_content"
-        android:layout_height="34dp"
+        android:layout_width="237dp"
+        android:layout_height="112dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="218dp"
+        android:layout_marginBottom="14dp"
         android:text="weather" />
 
 

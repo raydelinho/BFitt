@@ -4,6 +4,8 @@
     <string name="password">wachtwoor</string>
     <string name="username">gebruiksnaam</string>
     <string name="Register">register</string>
+    <string name="logout">logout</string>
+
 
 
 </resources>
