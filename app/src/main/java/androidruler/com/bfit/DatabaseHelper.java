@@ -15,6 +15,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String User_id="id";
     public static final String User_name="name";
     public static final String User_password="password";
+
     //constructor here
     public DatabaseHelper(Context context)
     {

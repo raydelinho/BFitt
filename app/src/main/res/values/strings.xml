@@ -6,6 +6,8 @@
     <string name="Register">register</string>
     <string name="logout">logout</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
