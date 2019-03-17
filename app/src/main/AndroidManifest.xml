@@ -22,7 +22,8 @@
         <activity android:name=".RegisterActivity" />
         <activity android:name=".WheatherActivity" />
         <activity android:name=".DashboardActivity" />
-        <activity android:name=".StrengthActivity"></activity>
+        <activity android:name=".StrengthActivity" />
+        <activity android:name=".CardioActivity"></activity>
     </application>
 
 </manifest>

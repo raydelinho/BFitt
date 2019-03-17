@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class DashboardActivity extends AppCompatActivity {
-    Button strengthButton, weatherButton;
+    Button strengthButton, weatherButton,cardioButton;
 
 
     @Override
@@ -21,6 +21,7 @@ public class DashboardActivity extends AppCompatActivity {
 
         weatherButton=(Button)findViewById(R.id.weatherButton);
         strengthButton=(Button)findViewById(R.id.strenghtButton);
+        cardioButton=(Button)findViewById(R.id.cardioknop);
         weatherButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -37,6 +38,17 @@ public class DashboardActivity extends AppCompatActivity {
 
                 // Opening new user registration activity using intent on button click.
                 Intent intent = new Intent(DashboardActivity.this, StrengthActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        cardioButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                // Opening new user registration activity using intent on button click.
+                Intent intent = new Intent(DashboardActivity.this, CardioActivity.class);
                 startActivity(intent);
 
             }

@@ -16,7 +16,7 @@
         android:text="strenght" />
 
     <Button
-
+        android:id="@+id/cardioknop"
         android:layout_width="236dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
