@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="androidruler.com.bfit">
 
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -23,7 +27,8 @@
         <activity android:name=".WheatherActivity" />
         <activity android:name=".DashboardActivity" />
         <activity android:name=".StrengthActivity" />
-        <activity android:name=".WorkoutManager"></activity>
+        <activity android:name=".WorkoutManager" />
+        <activity android:name=".AndroidTimerService"></activity>
     </application>
 
 </manifest>

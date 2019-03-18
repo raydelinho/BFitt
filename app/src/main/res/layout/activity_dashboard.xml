@@ -33,6 +33,14 @@
         android:layout_marginBottom="15dp"
         android:text="weather" />
 
+    <Button
+        android:id="@+id/service"
+        android:layout_width="310dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Get time" />
+
 
 
 </RelativeLayout>
