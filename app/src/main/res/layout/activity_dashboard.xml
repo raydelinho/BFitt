@@ -8,38 +8,29 @@
 
     <Button
         android:id="@+id/strenghtButton"
-        android:layout_width="229dp"
-        android:layout_height="73dp"
+        android:layout_width="322dp"
+        android:layout_height="120dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="163dp"
-        android:text="strenght" />
+        android:layout_marginBottom="142dp"
+        android:text="Level info" />
 
     <Button
         android:id="@+id/cardioknop"
-        android:layout_width="236dp"
-        android:layout_height="wrap_content"
+        android:layout_width="314dp"
+        android:layout_height="113dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="124dp"
-        android:text="cardio" />
-
-    <Button
-
-        android:layout_width="235dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="66dp"
-        android:text="progress" />
+        android:layout_marginTop="127dp"
+        android:text="workout manager" />
 
     <Button
         android:id="@+id/weatherButton"
-        android:layout_width="237dp"
+        android:layout_width="312dp"
         android:layout_height="112dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="14dp"
+        android:layout_marginBottom="15dp"
         android:text="weather" />
 
 

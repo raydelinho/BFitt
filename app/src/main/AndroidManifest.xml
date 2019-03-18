@@ -23,7 +23,7 @@
         <activity android:name=".WheatherActivity" />
         <activity android:name=".DashboardActivity" />
         <activity android:name=".StrengthActivity" />
-        <activity android:name=".CardioActivity"></activity>
+        <activity android:name=".WorkoutManager"></activity>
     </application>
 
 </manifest>

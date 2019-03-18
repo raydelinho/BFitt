@@ -48,7 +48,7 @@ public class DashboardActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 // Opening new user registration activity using intent on button click.
-                Intent intent = new Intent(DashboardActivity.this, CardioActivity.class);
+                Intent intent = new Intent(DashboardActivity.this, WorkoutManager.class);
                 startActivity(intent);
 
             }
